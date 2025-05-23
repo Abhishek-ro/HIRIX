@@ -24,11 +24,11 @@ const login = () => {
     <div className="flex flex-col items-center justify-center h-screen bg-black">
       <div className="flex flex-col items-center justify-center  sm:border sm:rounded-2xl sm:p-2xl">
         <img
-          src="logo.png"
+          src="authLogo.png"
           alt="logo"
           width={100}
           height={100}
-          className="w-[120px] h-[auto] rounded-2xl mb-5 sm:w-[140px]"
+          className="w-[120px] h-[auto] rounded-2xl mb-4 sm:w-[140px]"
         />
 
         <div className="flex items-center flex-col gap-3 rounded-lg p-10 mt-[-50px] ">

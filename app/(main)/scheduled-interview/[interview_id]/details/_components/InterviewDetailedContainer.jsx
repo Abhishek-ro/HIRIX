@@ -3,7 +3,7 @@ import moment from 'moment';
 import React, { useEffect } from 'react'
 
 const InterviewDetailedContainer = ({ interviewDetail }) => {
-  console.log("Interview",interviewDetail)
+
   return (
     <div className="p-5 bg-white rounded-lg mt-5">
       <h2>{interviewDetail?.jobPosition}</h2>

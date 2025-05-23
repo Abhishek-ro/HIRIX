@@ -4,7 +4,7 @@ import OpenAI from "openai";
 
 export async function POST(req) {
   const { conversation } = await req.json();
-  console.log("coversation",conversation)
+ 
   const FINAL_PROMPT = String(FEEDBACK_PROMPT).replace(
     "{{conversation}}",
     JSON.stringify(conversation)

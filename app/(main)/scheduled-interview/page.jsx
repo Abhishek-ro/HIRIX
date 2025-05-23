@@ -20,7 +20,6 @@ const scheduledInterview = () => {
       .eq("userEmail", user?.email)
       .order("id", { ascending: false });
 
-    console.log("result", result?.data);
     setInterviewList(result?.data);
   };
   return (

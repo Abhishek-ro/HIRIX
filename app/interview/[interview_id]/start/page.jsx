@@ -107,7 +107,7 @@ Key Guidelines:
           },
         ])
         .select();
-      console.log(data);
+  
       setloading(false)
     } catch (error) {
       setloading(false);

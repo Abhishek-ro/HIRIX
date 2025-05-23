@@ -30,7 +30,6 @@ const InterviewDetails = () => {
       }
 
       setInterviewDetail(result.data?.[0]);
-      console.log("result", result.data?.[0]);
     } catch (error) {
       console.error("Unexpected Error:", error);
     }
